@@ -5,6 +5,8 @@
 }
 body{
   overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 .container{
   display: grid;
@@ -43,16 +45,23 @@ input{
 #result,.resultPlace{
   text-align: center;
   padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #B9B9B9;
+}
+.resultPlace{
+  color: rgb(39, 39, 39);
 }
 #button{
   width: 95%;
   padding: 8px;
-  background-color: aqua;
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: large;
+  font-weight: 700;
+  font-size: 20px;
+  background: linear-gradient(180deg, #27D3F8 0%, #1FBCDD 100%);
 }
 
 @media screen and (max-width:700px){
